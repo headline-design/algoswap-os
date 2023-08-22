@@ -1,0 +1,25 @@
+/*
+Theme Name: React Quick Pack With Sass, Bootstrap 5.0.2 and Font Awesome 5
+Author: Enamul Kabir
+Author URI: https://stackoverflow.com/users/story/4284294
+Theme URI: https://github.com/enamul1214/react-bootstrap-5
+Front End Developer: Enamul Kabir
+Back End Developer: Enamul Kabir
+Project Start: 01-07-2021
+Date: 01-07-2021
+*/
+@import "node_modules/bootstrap/scss/functions";
+@import "theme/variables";
+@import "node_modules/bootstrap/scss/bootstrap";
+
+// Any additional imported files //
+@import "theme/header";
+@import "theme/front-page";
+@import "theme/pages-post";
+@import "theme/elements";
+@import "theme/widgets";
+@import "theme/footer";
+@import "theme/utility";
+@import "theme/plugin-override";
+@import "theme/responsive";
+@import "theme/accordion";
